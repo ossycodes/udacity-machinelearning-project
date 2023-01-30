@@ -35,6 +35,12 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
+      # install hadolint!
+      - run:
+          name: Install hadolint
+          command: |
+              sudo make install-hadolint
+
       # run lint!
       - run:
           name: run lint
