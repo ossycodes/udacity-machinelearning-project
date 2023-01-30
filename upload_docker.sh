@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=osaigbovoemmanuel/skylearnmlproject
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login -u osaigbovoemmanuel
+docker tag skylearnmlproject $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
+docker push osaigbovoemmanuel/skylearnmlproject:latest
