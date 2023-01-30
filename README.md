@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ossycodes/udacity-machinelearning-project/tree/master.svg?style=svgg)](https://dl.circleci.com/status-badge/img/gh/ossycodes/udacity-machinelearning-project/tree/master.svg?style=svg)
 
 ## Project Overview
 
